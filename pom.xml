@@ -14,6 +14,9 @@
         <krazo.version>3.0.1</krazo.version>
         <jakarta.mvc-api.version>2.1.0</jakarta.mvc-api.version>
         <junit.version>5.9.0</junit.version>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <maven.compiler.source>1.8</maven.compiler.source>
+        <maven.compiler.target>1.8</maven.compiler.target>
     </properties>
 
     <dependencies>
