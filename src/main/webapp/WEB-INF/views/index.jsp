@@ -1,11 +1,15 @@
-<%@ page contentType="text/html;charset=UTF-8" pageEncoding="UTF-8" language="java" %>
+<%@ page pageEncoding="UTF-8" %>
+<%@ taglib uri="jakarta.tags.core" prefix="c" %>
+
 <html lang="en">
     <head>
-        <meta charset="UTF-8">
+        <meta charset="UTF-8" />
 
-        <title>${msg}</title>
+        <title>
+            <c:out value="${msg}"/>
+        </title>
     </head>
     <body>
-        <h1>${msg}</h1>
+        <c:out value="${msg}"/>
     </body>
 </html>

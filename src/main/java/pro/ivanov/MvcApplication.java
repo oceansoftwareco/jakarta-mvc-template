@@ -1,11 +1,9 @@
 package pro.ivanov;
 
-import java.util.HashMap;
 import java.util.Map;
+import java.util.HashMap;
 
 import jakarta.mvc.engine.ViewEngine;
-import jakarta.mvc.security.Csrf;
-import jakarta.mvc.security.Csrf.CsrfOptions;
 
 import jakarta.ws.rs.ApplicationPath;
 import jakarta.ws.rs.core.Application;
